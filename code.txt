@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
+  background(0,0,0);
+  let num_lines = random(1,CANVAS_WIDTH)
+    for (var i = 0; i < num_lines; i++){
+    noStroke()
+    let r_value = random(0,255)
+    let g_value = random(0,255)
+    let b_value = random(0,255)
+    fill(r_value,g_value,b_value)
+    let rect_width = CANVAS_WIDTH/num_lines
+    let point_X = 0+i*rect_width
+    rect(point_X,0,rect_width,CANVAS_HEIGHT)
+    } 
+}
