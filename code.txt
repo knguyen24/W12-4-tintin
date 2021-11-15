@@ -1,3 +1,6 @@
+// Weinberg was here! Thanks for sharing.
+
+
 function setup() {
   createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
   background(0,0,0);
